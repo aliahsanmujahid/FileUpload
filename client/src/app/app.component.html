@@ -1,0 +1,7 @@
+<app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+<div class="row">
+  <div class="offset-md-5 col-md-2">
+    <button type="button" class="btn btn-primary" (click)="onCreate()">Create </button>
+    <img [src]="createImgPath(user.imgPath)" alt="profile picture" style="width:60px; height:60px;">
+</div>
+</div>
